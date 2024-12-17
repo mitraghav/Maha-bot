@@ -18,7 +18,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("owner")) {
 		var msg = {
 				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★ fecebook https://www.facebook.com/profile.php?id=61565406584020`",
-				attachment: fs.createReadStream(__dirname + `/noprefix/owner.jpg`)
+				attachment: fs.createReadStream(__dirname + `/noprefix/FB_IMG_1734359924078.jpg``/noprefix/FB_IMG_1734440376846.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("📷", event.messageID, (err) => {}, true)
