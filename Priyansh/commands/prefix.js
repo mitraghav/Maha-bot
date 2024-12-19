@@ -22,6 +22,8 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
   var arr = ["mpre","mprefix","prefix", "dấu lệnh", "prefix của bot là gì","daulenh", "duong", "what prefix", "freefix", "what is the prefix", "bot dead", "bots dead", "where prefix", "what is bot", "what prefix bot", "how to use bot" ,"how use bot", "where are the bots","bot not working","bot is offline","where prefix","prefx","prfix","prifx","perfix","bot not talking","where is bot"];
   arr.forEach(i => {
     let str = i[0].toUpperCase() + i.slice(1);
+    var link =                                     
+["https://i.imgur.com/RCM4yml.jpeg" ,
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
